@@ -1,0 +1,43 @@
+* {
+    color: red;
+}
+body {
+    background-image: url(csstest.jpg);
+    background-size: cover;
+}
+h2 {
+    color: rgb(85, 10, 0, 0.5);
+    text-align: center;
+    border: 5px solid #2ea589;
+}
+
+p {
+    color: purple
+}
+
+p {
+    color: blue;
+}
+
+li {
+    /* list-style: none; */
+    display: inline-block;
+
+}
+
+.dark {
+    color: black;
+}
+
+.active {
+
+}
+
+#div1 {
+    font-size: 12px;
+}
+
+#div1 > #div2 {
+    color: green;
+
+}

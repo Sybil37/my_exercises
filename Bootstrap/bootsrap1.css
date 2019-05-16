@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+}
+
+.jumbotron2 {
+    background-image: url(paris1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.background-box { 
+    height: 500px;
+}
+
+.font {
+
+    font-family: "Crete Round";
+    color: 	rgb(128,0,0);
+    font-size: 50px;
+}
+
+.font1 {
+    font-family: "Crete Round";
+    color: 	rgb(255,248,220);
+    font-size: 22px;
+
+}
+
+.color {
+    background-color: rgb(205,133,63);
+}
+
+
+

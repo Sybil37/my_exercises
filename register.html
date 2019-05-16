@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Register</title>
+</head>
+<body>
+    <div>
+   <form method="POST">
+    Name: <input type="text" name="name">
+    <br>
+    Last Name: <input type="text" name="firstname"> <br>
+   Email: <input type="email" name="email"> <br>
+   <!--Make sure to implement this -->
+   Password: <input type="password" minlength="8" name="password"> <br>
+   Birthday: <input type="date" name="birthday"> <br>
+  Gender: <br>
+   <input type="radio" name="gender" value="male"> Male <br>
+   <input type="radio" name="gender" value="female"> Female <br>
+   <input type="radio" name="gender" value="other"> Other <br>
+   Pets: <br> <input type="checkbox" name="cat"> Cat <br>
+   <input type="checkbox" name="dog"> Dog <br>
+   <input type="checkbox" name="rabbit"> Rabbit <br>
+   Country: <br>
+  <select name="country">
+      <option value="malaysia">Malaysia</option>
+      <option value="singapore">Singapore </option>
+      <option value="thailand">Thailand</option>
+      <option value="wakanda">Wakanda</option>
+      <option value="indonesia">Indonesia</option>
+  </select> <br>
+   <input type="Submit" value="Register" required>
+    <input type="reset">
+
+   </form>
+   </div>
+</body>
+</html>
